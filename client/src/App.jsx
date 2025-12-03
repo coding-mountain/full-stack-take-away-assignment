@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 
 import "./App.css";
+import SeismicDashboard from "./screens/SeismicDashboard";
 
 function App() {
   useEffect(() => {
@@ -12,7 +13,7 @@ function App() {
 
   return (
     <div>
-      <h1>Hello world</h1>
+      <SeismicDashboard />
     </div>
   );
 }
